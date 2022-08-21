@@ -1,0 +1,450 @@
+body,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+a:hover {
+    background: rgba(112, 124, 134, 0.05);
+}
+
+
+span {
+    color: #f9004d;
+}
+
+#Portfolio {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1d1d1d;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+}
+
+
+#btn-mobile {
+    display: none;
+}
+
+h1 {
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-left: 15px;
+
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    margin-left: 15px;
+
+}
+
+.Container-btn form {
+    width: 100%;
+    max-width: 310px;
+    position: relative;
+    margin: 10px;
+}
+
+.Container-btn form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 11px 15px;
+    border: 3px solid #f9004d;
+    border-radius: 30px;
+    outline: none;
+}
+
+.Container-btn form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: -143px;
+    top: 6px;
+
+}
+
+
+.Text-sobre {
+    margin: 85px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.Text-sobre h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Text-sobre h5 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.Text-sobre p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 22px;
+    text-align: justify;
+
+}
+
+button {
+    background-color: #f9004d;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+#Projetos {
+    background: #101010;
+    color: white;
+
+}
+
+#Projetos>.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 335px;
+    min-height: 365px;
+    flex-wrap: wrap;
+
+}
+
+
+#title {
+    font-size: 35px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+
+}
+
+.container {
+    color: black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #020202;
+
+}
+
+.container {
+    background: #101010;
+    height: 365px;
+    width: 335px;
+    border-radius: 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container h5 {
+    font-size: 35px;
+    letter-spacing: 15px;
+    color: white;
+    background: #f9004d;
+    width: 100%;
+
+}
+
+.habilidade {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.spinner {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.spinner::before,
+.spinner::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.spinner::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, yellow 0%, #f9004d 100%);
+    animation: spin .5s infinite linear;
+
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+.spinner::after {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.porcent {
+    color: green;
+    font-size: 25px;
+    font-weight: 400;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cube {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cube {
+    animation: animate 10s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotateX(-30deg) rotateY(-35deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+
+
+.imgRedonda {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+#contatos {
+    background: #101010;
+
+
+
+}
+
+.nome h5 {
+    color: azure;
+    font-size: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+.nome p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rede {
+    margin: 40px;
+}
+
+body {
+    background: #000;
+}
+
+@media (max-width: 600px) {
+
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #2b2b2b;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(53, 47, 51, 0.521);
+    }
+
+
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        color: aliceblue;
+        font-weight: bold;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+
+
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .Container-btn form {
+        width: 58%;
+
+    }
+
+    #Habilidades {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .habilidade {
+        display: flex;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .imgRedonda {
+        width: 70px;
+        right: 70px;
+    }
+
+}
