@@ -111,9 +111,10 @@ h3 {
 
 
 .Text-sobre {
-    margin: 85px;
+    margin: 10px;
     line-height: 19px;
     align-items: center;
+
 }
 
 .Text-sobre h2 {
@@ -135,8 +136,13 @@ h3 {
     letter-spacing: 2px;
     font-family: sans-serif;
     line-height: 22px;
-    text-align: justify;
+    text-align: center;
 
+}
+
+.Text-sobre p {
+    min-height: 601;
+    margin: 55px;
 }
 
 button {
@@ -350,6 +356,8 @@ body {
 @media (max-width: 600px) {
 
 
+
+
     #menu {
         display: block;
         position: absolute;
@@ -422,9 +430,20 @@ body {
         top: -7px;
     }
 
+
     .Container-btn form {
         width: 58%;
 
+    }
+
+
+
+    #Projetos {
+        background: #1d1d1d;
+    }
+
+    #contatos {
+        background: #1d1d1d;
     }
 
     #Habilidades {
@@ -447,4 +466,13 @@ body {
         right: 70px;
     }
 
+
+}
+
+@media (max-width: 380px) {
+    #main-sobre h2 {
+        line-height: 35px;
+        font-size: 34px;
+
+    }
 }
