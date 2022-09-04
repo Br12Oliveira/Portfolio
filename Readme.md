@@ -1,1 +1,2 @@
-Olá esse é meu primeiro projeto, mas também é meu portifólio. Em breve farei mais atualizações para deixa-lô ainda mais funcional e interativo.
+# Portfolio
+Meu portfolio, também é meu primeiro projeto.
